@@ -1,11 +1,11 @@
 # Basic Makefile
 
-UUID = apt-update-indicator@franglais125.gmail.com
+UUID = new-apt-update-indicator@hamburgerjungejr
 BASE_MODULES = extension.js indicator.js LICENCE.txt metadata.json monitors.js prefs.js Settings.ui stylesheet.css updateManager.js utils.js
 EXTRA_MEDIA = media/logo.png media/apt-update-indicator-symbolic.svg
 TOLOCALIZE = indicator.js monitors.js updateManager.js
 MSGSRC = $(wildcard po/*.po)
-INSTALLNAME = apt-update-indicator@franglais125.gmail.com
+INSTALLNAME = new-apt-update-indicator@hamburgerjungejr
 ifeq ($(strip $(DESTDIR)),)
 	INSTALLBASE = $(HOME)/.local/share/gnome-shell/extensions
 	RMTMP = echo Not deleting tmp as installation is local
