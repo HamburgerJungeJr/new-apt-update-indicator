@@ -9,7 +9,7 @@ Update indicator for apt-based distributions.
 - Available in English, French and Spanish
 
 ## One-click install
-https://extensions.gnome.org/extension/1139/apt-update-indicator/
+https://extensions.gnome.org/extension/2197/new-apt-update-indicator/
 
 ## Manual install
 To install, simply download and execute `make install`
